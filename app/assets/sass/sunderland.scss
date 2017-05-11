@@ -1,0 +1,190 @@
+@import 'patterns/_govukish.scss';
+
+.sunderland{
+
+  main{
+    background: white;
+  }
+
+  #footer {
+    border: 0;
+    padding: 1em;
+    text-align: center;
+    background: rgba(31, 43, 99, 1);
+    color: white;
+  }
+  .notice{
+    margin: 1em 0 2em;
+  }
+  .button-start{
+    padding-bottom: 0.5em;
+  }
+#kword{
+	background-color: rgba(229,229,227,1);
+}
+.mysunderland-name-extra{
+	color: white;
+	font-size: 15px;
+}
+.sunderland-tr{
+	background-color: rgba(56,67,110,1);
+}
+/*SCC Top Header */
+div#logo a, div#scclogo a {
+	width: 155px;
+	height: 94px;
+	text-indent: -999em;
+	background: url('/public/images/scc-logo-main.png') no-repeat top left;
+	display: block;
+}
+section, article, header, footer, nav, aside, hgroup {
+	display: block;
+}
+header#masthead {
+	min-width: 960px;
+	height: 105px;
+	background: #1F2B63;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+body {
+	background: #e6e6e4;
+	color: #252525;
+	font-family: InterFace, Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+}
+:focus {
+	outline: 0;
+}
+html {
+	min-height: 101%;
+	margin-bottom: 1px;
+}
+.wrapper {
+	margin: 0px auto;
+	width: 960px;
+	overflow: hidden;
+}
+div#logo {
+	width: 212px;
+	margin-right: 16px;
+	float: left;
+}
+h1, h2, h3, h4, #search input.searchbutton, .findnearest input.searchbutton, nav#doitonlinetop, nav#mainmenu, nav#mysunderland strong, a.buttonlink, nav.grouping-list ul li a, nav#doitonlinepanel li a, .form-wrap label, .icmform label, input.submitbutton, p strong, .main-content th, .landing-content th, nav.sidenav h3 strong, .related-wrap li strong, .related-wrap li a, .transaction-panel h3 strong, .listing-block .filter label, .listing-block li a, .jumpmenu a.active, .jumpmenu span.active, .sidesearch label, p.submiteventlink, #event-listing p.readmore, a.booklink, .event-intro ul.event-details li strong, #tsad-content p.bottom-links a, #featured .doitonline li a {
+	font-family: InterFace, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+nav#mainmenu {
+	width: 420px;
+	float: left;
+}
+#search {
+	width: 310px;
+	height: 37px;
+	float: right;
+	margin: 15px 0px 5px 0px;
+}
+nav#mysunderland {
+	width: 310px;
+	height: 33px;
+	background: #38436e;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float: right;
+	font-size: 14px;
+	color: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+nav#mysunderland li {
+	padding-left: 14px;
+	height: 33px;
+	line-height: 33px;
+    list-style-type: none;
+}
+nav#mainmenu li {
+	float: left;
+	width: 50%;
+}
+header#topbar nav ul li, header#masthead nav ul li {
+	float: left;
+}
+a {
+	text-decoration: none;
+}
+a.tag::after {
+	content: " \203A";
+}
+nav#mainmenu li a {
+	font-size: 15px;
+	height: 28px;
+	line-height: 28px;
+	display: block;
+}
+header#topbar nav ul li a, header#masthead nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+#search label {
+	display: none;
+}
+#search input.searchinput {
+	width: 211px;
+	height: 36px;
+	padding: 1px 8px 0px 8px;
+	background: #d2d8e0;
+	float: left;
+	border: none;
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+	font-size: 15px;
+	color: #626262;
+}
+#search input.searchinput, .findnearest input.postcodeinput {
+	font-family: InterFace, Verdana, Geneva, sans-serif;
+	font-weight: normal;
+}
+#search input.searchbutton {
+	width: 83px;
+	height: 37px;
+	line-height: 37px;
+	padding-top: 0px;
+	background: url('/public/images/scc-search-button.png') 58px 0px no-repeat #eb3a31;
+	text-align: left;
+	font-size: 15px;
+	float: left;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	-webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+nav#mainmenu ul {
+	margin-top: 25px;
+}
+nav#mainmenu li {
+    list-style-type: none;
+}
+#content {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+#footer a:hover {
+    color: #fff;
+}
+#footer a:visited {
+    color: #d5e8f3;
+} 
+.govuk-box-highlight {
+	color: #000;
+	background: #fff;
+}}
